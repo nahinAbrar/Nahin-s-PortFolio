@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nahin's Portfolio</title>
+
+    <!--Linking Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,300&family=Libre+Baskerville&family=Raleway:ital,wght@0,500;1,200&family=Roboto+Mono&display=swap"
+        rel="stylesheet">
+
+    <!--Linking Bootstrap5 CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!--Linking CSS-->
+    <link rel="stylesheet" href="css/design.css">
+
+    <!--Linking Box Icon section-->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <!--NavBar Section-->
+    <section id="navbar">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+            <div class="container">
+                <a class="navbar-brand fw-bold" href="#"><img src="img/logo.png" height="40px" width="auto" alt="LOGO"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#aboutMe">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#experience">Experience</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contactMe">Contact Me</a>
+                        </li>
+                    </ul>
+
+                    <div class="animation start-home"></div>
+
+                </div>
+            </div>
+        </nav>
+
+    </section>
+
+    <!--Home Section-->
+    <section id="home">
+
+        <div class="container mt-5 pt-5">
+
+            <div class="row">
+                <div class="col-md-6 d-flex flex-column justify-content-center">
+                    <div id="typedStrings">
+                        <h1>Hi, I am Nahin Abrar</h1>
+                        <h1>Hi, I am a Web Enthusiast</h1>
+                    </div>
+                    <div class="fs-1 fw-normal lh-sm">
+                        <span id="typed"></span>
+                    </div>
+                    <h3>Student of </h3>
+                    <h5>
+                        Ahsanullah University of
+                        Science and Technology <br>
+                    </h5>
+
+                    <h6>Department of CSE</h6>
+
+                </div>
+                <div class="col-md-6">
+                    <img src="img/img2.jpg" class="img-fluid" alt="img1">
+
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--aboutMe Section-->
+    <section id="aboutMe">
+
+        <div class="container my-5 py-5">
+
+            <div class="row mb-5">
+
+                <div class="col-12">
+
+                    <h1 class="fw-bold text-center">About Me</h1>
+                    <hr>
+
+                </div>
+
+                <div class="row">
+
+                    <div class="col-md-6">
+                        <img src="img/img3.jpg" alt="img3" height="400px" width="auto">
+                    </div>
+
+                    <div class="col-md-6 d-flex flex-column justify-content-center">
+                        <h1 class="fw-bold">Nahin Abrar</h1>
+                        <h3 class="text-info mb-4">Student</h3>
+                        <p class="lead mb-4">I am currently a student at Ahsanullah University of Science and Technology
+                            in the Department of Computer Science
+                            & Engineering. I have completed 2 years at this University. My favorite field in web
+                            development. Currently learning the stuff which is essential for professional web
+                            development.
+                        </p>
+
+                        <div class="buttons">
+                            <button class="btn btn-outline-info px-5 py-2"
+                                onclick="window.open('https://drive.google.com/file/d/1Plbdh9kpUuuvjwOQZQhut5q2-rKpAMzL/view?usp=sharing','_blank')">Download
+                                CV</button>
+                            <button class="btn btn-info px-5 py-2"
+                                onclick="window.open('mailto: asmnahin21@gmail.com')">Contact</button>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- experience section-->
+    <section id="experience">
+        <div class="container my-5 py-5">
+            <h1 class="fw-bold text-center">Experience</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class="fas servicesIcon fa-clock"></i>
+                            <h4 class="card-title mt-3">Android Development</h4>
+                            <p class="card-text mt-3">I have a good experience in developing android app because I
+                                created a e commerce app using the platform Android Studio. More details in my <a
+                                    href="#portfolio" class="Link">portfolio</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='fas servicesIcon fa-layer-group'></i>
+                            <h4 class="card-title mt-3">Photography</h4>
+                            <p class="card-text mt-3">I Love to capture the things happening around me. So, I have a
+                                good experience about photography and captured a lot of photographs in past few
+                                years.Check my profile in
+                                <a href="https://www.flickr.com/people/161540459@N03/" target="_blank"
+                                    class="Link">Flickr</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='far servicesIcon fa-check-circle'></i>
+                            <h4 class="card-title mt-3">Workshops</h4>
+                            <p class="card-text mt-3">I have attended many Workshops in various sectors. The most recent
+                                workshop was by AUST Programming Club. I have also completed some of the workshops by <a
+                                    href="https://www.technovation.org/" target="_blank" class="Link">Technovation</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!--skills section-->
+
+    <section id="skills">
+
+        <div class="container my-5 py-5">
+
+            <div class="row mb-5">
+                <div class="col-12">
+                    <h1 class="fw-bold text-center">My Skills</h1>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col-md-6">
+                    <h1 class="fw-bold">Skills and Others</h1>
+                    <p class="lead">
+                        I have learned different programming languages in the past couple of years. Among those, I have
+                        good knowledge of C++. I have also completed a course in HTML, and CSS from COURSERA to enrich
+                        my knowledge in web development. Apart from these skills, I am fluent in English and Bangla. I
+                        also know the work procedure of Overleaf.
+                    </p>
+
+                </div>
+
+                <div class="col-md-5">
+
+                    <div class="progress mb-4">
+                        <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="90"
+                            aria-valuemin="0" aria-valuemax="100">C++</div>
+                    </div>
+                    <div class="progress mb-4">
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 85%" aria-valuenow="85"
+                            aria-valuemin="0" aria-valuemax="100">JAVA</div>
+                    </div>
+                    <div class="progress mb-4">
+                        <div class="progress-bar bg-success" role="progressbar" style="width: 90%" aria-valuenow="90"
+                            aria-valuemin="0" aria-valuemax="100">HTML</div>
+                    </div>
+                    <div class="progress mb-4">
+                        <div class="progress-bar bg-info" role="progressbar" style="width: 80%" aria-valuenow="80"
+                            aria-valuemin="0" aria-valuemax="100">CSS</div>
+                    </div>
+                    <div class="progress mb-4">
+                        <div class="progress-bar bg-secondary" role="progressbar" style="width: 50%" aria-valuenow="50"
+                            aria-valuemin="0" aria-valuemax="100">Bootstrap5</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--portfolio section-->
+    <section id="portfolio">
+        <div class="container my-5 py-5">
+            <h1 class="fw-bold text-center">Portfolio</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="img/bbq.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">BBQ It!</h4>
+                            <p class="card-text">A i-Graphics project. Basic Shooting Game.</p>
+                            <div class="text-center">
+                                <a href="https://drive.google.com/file/d/14sxJbbuNSghNQSW8YqagijjhJuTJy7mO/view?usp=sharing"
+                                    target="_blank" class="btn btn-info">Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="img/browser.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Phantom Browser</h4>
+                            <p class="card-text">A Basic Internet Browser. Made with Java</p>
+                            <div class="text-center">
+                                <a href="https://drive.google.com/file/d/1D5IzGb0GF2OK4ZuODv5jANr3cmLkUjbb/view?usp=sharing"
+                                    target="_blank" class="btn btn-info">Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="img/eApp.png" alt="Card image" height="220px" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Orchestra eShop</h4>
+                            <p class="card-text">A eCommerce app. Made with Kotlin.</p>
+                            <div class="text-center">
+                                <a href="https://drive.google.com/file/d/1CpyoPAxDYAKHshw8ujtGbMMk9omJzfjK/view?usp=sharing"
+                                    target="_blank" class="btn btn-info">Detais</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!--contactMe section-->
+    <section id="contactMe">
+        <div class="container my-5 py-5">
+            <div class="row">
+
+                <div class="col-lg-6">
+                    <img src="img/contact.svg" height="auto" width="500px" alt="contact">
+                </div>
+
+                <div class="col-lg-6">
+                    <h1 class="fw-bold">Contact Me</h1>
+                    <br>
+                    <p><a class="contact_link" href="https://www.youtube.com/channel/UCXtg2C75L9dmdrYkycC1pKA"
+                            target="_blank"><i class="bx bxl-youtube"></i><b> /Programming Tutor</b></a></p>
+
+                    <p><a class="contact_link" href="mailto: asmnahin21@gmail.com" target="_blank"><i
+                                class="bx bxl-gmail"></i><b> Nahin Abrar</b></a></p>
+
+                    <p><a class="contact_link" href="https://www.facebook.com/abrarnahin21" target="_blank"><i
+                                class="bx bxl-facebook"></i><b> /abrarnahin21</b></a></p>
+
+                    <p><a class="contact_link" href="https://www.instagram.com/abrar_nahin_21/" target="_blank"><i
+                                class="bx bxl-instagram"></i><b> @abrar_nahin_21</b></a></p>
+
+                    <p><a class="contact_link" href="https://github.com/nahinAbrar" target="_blank"><i
+                                class="bx bxl-github"></i><b>/nahinAbrar</b></a></p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!--footer-->
+    <footer id="footer">
+        <div class="container">
+
+
+            <div class="credit">
+                <!--EXTRAS-->
+                <p>&copy Designed with 💗 by Asm Nahin || 190204065@aust.edu || 20 June,2022
+                </p>
+
+            </div>
+        </div>
+
+    </footer>
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <!-- Typed.js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <!-- Typed.js config -->
+    <script src="js/typedJsConfig.js"></script>
+</body>
+
+</html>

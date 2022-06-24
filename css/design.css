@@ -1,0 +1,80 @@
+* {
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+}
+
+body{
+    background-color: #bdc3c7;
+}
+
+.navbar{
+    background-color: #3c6382 ;
+}
+
+
+.text-info{
+    color: #3c6382 !important;
+}
+
+.btn .btn-info{
+    color
+}
+
+.btn .btn-outline-info{
+    outline-color: #3c6382 !important;
+}
+
+
+
+
+.navbar-nav{
+    font-size: 18px;
+}
+
+.img{
+    height: 600px;
+    width: auto;
+}
+
+.btn{
+    border-radius: 20px;
+}
+
+.Link{
+    text-decoration: none;
+}
+
+.progress{
+    height: 30px;
+    border-radius: 20px;
+    transition: all 0.5s ease;
+
+}
+
+.progress:hover{
+    transform: scale(1.1);
+}
+
+.contact_link{
+    text-decoration: none;
+    color: gray;
+    font-size: 130%;
+}
+
+.btn .btn-info{
+    border-radius: 20px;
+    color: aliceblue;
+}
+
+#footer{
+    background-color: #2F2E41;
+    padding: 5px;
+}
+
+#footer p{
+    color: white;
+}
+
+
