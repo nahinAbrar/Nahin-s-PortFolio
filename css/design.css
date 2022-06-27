@@ -1,33 +1,56 @@
 * {
+    box-sizing: border-box;
     font-family: 'Josefin Sans', sans-serif;
     font-family: 'Libre Baskerville', serif;
     font-family: 'Raleway', sans-serif;
     font-family: 'Roboto Mono', monospace;
+
+    margin: 0;
+    padding: 0;
+}
+
+
+:root{
+
+    --primary-color: #c8d6e5;
+    --secondary-color: #70a1ff;
+    --bg-dark-blue: #535c68;
+
+
+    --primary-font: 'Josefin Sans', sans-serif;
+    --primary-text: #c8d6e5;
+    --text-gray: #2f3542;
+    --text-white: #f1f2f6;
+
 }
 
 body{
-    background-color: #bdc3c7;
+    font-family: var(--primary-font);
+    background-color: var(--primary-color);
+}
+
+::-webkit-scrollbar{
+    width: 7px;
+
+}
+
+::-webkit-scrollbar-track{
+    background: var(--bg-dark-blue);
+}
+
+::-webkit-scrollbar-thumb{
+    background: var(--primary-color);
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    margin:0;
 }
 
 .navbar{
     background-color: #3c6382 ;
 }
-
-
-.text-info{
-    color: #3c6382 !important;
-}
-
-.btn .btn-info{
-    color
-}
-
-.btn .btn-outline-info{
-    outline-color: #3c6382 !important;
-}
-
-
-
 
 .navbar-nav{
     font-size: 18px;
